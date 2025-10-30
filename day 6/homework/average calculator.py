@@ -13,5 +13,7 @@ num04 = float(input("the fourth: "))
 num05 = float(input("and the fifth: "))
 
 result = (num01+num02+num03+num04+num05)/5
-print("The average of the numbers given by " + name + " is:")
-print(result)
+
+# აქ შედეგი სტრინგად გადავაქციე რომ შემდეგ კონკატენაცია შემეძლოს
+result = str(result)
+print("The average of the numbers given by " + name + " is: " + result)
