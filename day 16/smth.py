@@ -1,4 +1,5 @@
 # SITUATION: mom said to buy as much as i can:3 BUT i have to buy milk for sure!
+# (kinda inspired by the game "Milk outside a bag of milk outside a bag of milk" :3)
 
 milk = 7
 chocolate = 5
