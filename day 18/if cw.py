@@ -14,12 +14,15 @@ else:
 
 num = int(input("Input a number: "))
 a = 1
+result = 0
 
 if num > 1:
     for i in range(1, num+1):
-        print(i)
+        result += i
+print(result)
 
 if num > 1:
     while a <= num:       # I prefer while loops:P they seem much more flexible idk
-        print(a)
+        result += a
         a += 1
+print(result)
